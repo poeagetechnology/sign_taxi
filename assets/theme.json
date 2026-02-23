@@ -1,0 +1,51 @@
+{
+  "colors": {
+    "primary": "#F97316",
+    "primaryDark": "#EA580C",
+    "primaryLight": "#FB923C",
+    "secondary": "#0EA5E9",
+    "accent": "#38BDF8",
+    "white": "#FFFFFF",
+    "background": "#F0F9FF",
+    "surface": "#FFFFFF",
+    "surfaceVariant": "#F8FAFC",
+    "border": "#E2E8F0",
+    "textPrimary": "#0F172A",
+    "textSecondary": "#475569",
+    "textDisabled": "#94A3B8",
+    "success": "#22C55E",
+    "error": "#EF4444",
+    "warning": "#F59E0B",
+    "info": "#0EA5E9"
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 16,
+    "lg": 24,
+    "xl": 32,
+    "xxl": 48
+  },
+  "typography": {
+    "fontFamilyBase": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+    "fontSize": {
+      "xs": 12,
+      "sm": 14,
+      "md": 16,
+      "lg": 18,
+      "xl": 24,
+      "xxl": 32
+    }
+  },
+  "borderRadius": {
+    "sm": 4,
+    "md": 8,
+    "lg": 16,
+    "xl": 24
+  },
+  "shadows": {
+    "sm": "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)",
+    "md": "0 4px 6px rgba(0,0,0,0.1)",
+    "lg": "0 10px 25px rgba(0,0,0,0.1)"
+  }
+}

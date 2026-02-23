@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"sign-taxi","appId":"1:392139443843:android:d5e37c1f20c761432755b6","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"sign-taxi","configurations":{"android":"1:392139443843:android:d5e37c1f20c761432755b6","web":"1:392139443843:web:64966caf20c4d3bb2755b6"}}}}}}

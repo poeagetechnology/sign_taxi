@@ -1,0 +1,55 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Deep Midnight Navy -->
+  <rect width="800" height="600" fill="#0B0E2D" />
+
+  <!-- Isometric grid (Electric Cyan / Neon Blue) -->
+  <g stroke="#00F2FF" stroke-width="1" opacity="0.25">
+    <path d="M 0 200 L 800 200" />
+    <path d="M 0 300 L 800 300" />
+    <path d="M 0 400 L 800 400" />
+    <path d="M 0 500 L 800 500" />
+    <path d="M 200 0 L 200 600" />
+    <path d="M 300 0 L 300 600" />
+    <path d="M 400 0 L 400 600" />
+    <path d="M 500 0 L 500 600" />
+  </g>
+
+  <!-- Isometric base plane (darker) -->
+  <polygon points="150,350 450,150 750,350 450,550" fill="#1A1F3D" stroke="#00F2FF" stroke-width="1.5" opacity="0.5" />
+
+  <!-- Isometric road -->
+  <polygon points="200,375 400,275 600,375 400,475" fill="#2A2F55" stroke="#00F2FF" stroke-width="1.2" />
+
+  <!-- Isometric Taxi – Golden Yellow #FFD700 -->
+  <g transform="translate(380,250) scale(0.9)">
+    <!-- Car body (isometric) -->
+    <polygon points="20,40 140,40 160,60 160,100 20,100 0,80 0,60" fill="#FFD700" stroke="#FFFFFF" stroke-width="2" />
+    <!-- Roof -->
+    <polygon points="40,40 80,20 120,40 80,60" fill="#E5C100" stroke="#FFFFFF" stroke-width="1.5" />
+    <!-- Windows -->
+    <polygon points="50,42 75,30 100,42 75,54" fill="#00F2FF" opacity="0.9" />
+    <!-- Wheels (neon outline) -->
+    <circle cx="40" cy="100" r="12" fill="#222222" stroke="#FFFFFF" stroke-width="2" />
+    <circle cx="40" cy="100" r="6" fill="#333333" />
+    <circle cx="120" cy="100" r="12" fill="#222222" stroke="#FFFFFF" stroke-width="2" />
+    <circle cx="120" cy="100" r="6" fill="#333333" />
+    <!-- Taxi sign -->
+    <rect x="70" y="10" width="20" height="15" fill="#00F2FF" />
+    <text x="72" y="23" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF" font-weight="bold">TAXI</text>
+  </g>
+
+  <!-- Isometric map pin – Cyber Green #39FF14 -->
+  <g transform="translate(550,300)">
+    <ellipse cx="0" cy="0" rx="20" ry="10" fill="#39FF14" opacity="0.3" />
+    <polygon points="0,-40 -10,0 0,20 10,0" fill="#39FF14" stroke="#FFFFFF" stroke-width="1.5" />
+    <circle cx="0" cy="-25" r="6" fill="#FFFFFF" />
+  </g>
+
+  <!-- Additional neon accent lines -->
+  <path d="M 100 200 L 700 200" stroke="#00F2FF" stroke-width="2" stroke-dasharray="8 8" opacity="0.8" />
+  <path d="M 200 100 L 200 500" stroke="#00F2FF" stroke-width="2" stroke-dasharray="8 8" opacity="0.8" />
+
+  <!-- White / Silver text highlights -->
+  <text x="50" y="550" font-family="Arial, sans-serif" font-size="28" fill="#FFFFFF" font-weight="bold">SignTaxi</text>
+  <text x="50" y="585" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" opacity="0.9">Futuristic • Isometric • Neon</text>
+</svg>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "392139443843",
+    "project_id": "sign-taxi",
+    "storage_bucket": "sign-taxi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392139443843:android:d5e37c1f20c761432755b6",
+        "android_client_info": {
+          "package_name": "com.signtaxi.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392139443843-8a2osvgtdngqpki40qj9g6f9n5gsvvvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCNN8oO9y7RjEBppQlH6BtsKaBwqBf3XU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392139443843-8a2osvgtdngqpki40qj9g6f9n5gsvvvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
